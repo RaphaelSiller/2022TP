@@ -1,0 +1,50 @@
+Übung 1: stat
+
+Ordner
+Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 10306h/66310d	Inode: 935209      Links: 2
+Access: (0775/drwxrwxr-x)  Uid: ( 1000/endroidmc)   Gid: ( 1000/endroidmc)
+Access: 2022-02-01 16:40:45.397490697 +0100
+Modify: 2022-02-01 16:40:42.537670766 +0100
+Change: 2022-02-01 16:40:42.537670766 +0100
+ Birth: -
+
+Datei
+Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 10306h/66310d	Inode: 935218      Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/endroidmc)   Gid: ( 1000/endroidmc)
+Access: 2022-02-01 16:40:42.537670766 +0100
+Modify: 2022-02-01 16:40:42.537670766 +0100
+Change: 2022-02-01 16:40:42.537670766 +0100
+ Birth: -
+
+
+
+Übung 2 + 3: df |grep -v tmpfs | grep -v loop
+Filesystem     1K-blocks     Used Available Use% Mounted on
+udev             3926640        0   3926640   0% /dev
+/dev/nvme0n1p6  40054040 13830100  24159556  37% /
+/dev/nvme0n1p1    262144    71640    190504  28% /boot/efi
+
+Es sind 13901740 gebraucht und es stehen noch 28276700 zur Verfügung 
+
+Übung 4: find | wc -l
+36250
+
+Übung 5: find hallo.c
+keine gefunden
+
+Übung 6: id		id | grep donpedro
+uid=1000(endroidmc) gid=1000(endroidmc) groups=1000(endroidmc),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),120(lpadmin),132(lxd),133(sambashare)
+
+Übung 7:
+etc/passwd:     
+    Username
+    Encrypted Password (sind in etc/shadow)
+    User ID number(UID)
+    User group ID number(GID)
+    Full name of the user(GECOS)
+    user home directory and
+    Login shell respectively.
+etc/shadow: 
+

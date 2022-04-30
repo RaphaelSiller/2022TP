@@ -1,0 +1,68 @@
+ps
+	gibt alle aktiven prozesse wieder
+	
+pstree
+	gibt einen "Baum" aller Prozesse dar
+
+top, htop (taskmanager)
+	htop ist die grafische variante von top
+	
+pidof
+	gibt die prozessID zurück
+	
+jobs
+	Gibt die Jobs an, welche in dieser Shell gestartet wurden
+	
+fg & bg
+	Bringt Jobs in den Vordergrund/Hintergrund
+	
+Aufruf mit "&"
+	Führt ein Job im Hintergrund aus
+	
+^Z
+	Stoppt(also pausiert) einen Job
+	
+kill, skill, killall
+	kill: Sendet ein Signal, z.B. für SIGTERM oder Interrupt
+	skill: Obsolet, man sollte killall benutzen
+	killall: Sendet ein Signal an alle spezifierten Jobs
+	
+man 7 signal
+	Man-Page aller Signals
+	
+Halte einen Prozess an und lass ihn dann weiterrechnen. Benutze dazu die Job-Verwaltung und auch kill.
+	gemacht
+	
+Wieviele Prozesse hast du laufen? Wieviele laufen auf dem Rechner insgesamt?
+	Total 353 Ich: 11
+	
+Welches ist der Elternprozess eines Firefox?
+	Wenn von Terminal gestartet, die bash
+	sonst die gnome-shell
+	
+Läuft ein sshd auf dem Server? Wenn ja wieviele? Wem gehören diese Prozesse?
+	14
+	
+Welche Nummer hat das Signal SIGALRM?
+	14
+	
+Welcher Prozess verbraucht am meisten Arbeitsspeicher?
+	VSCode & Opera
+	
+Wie lange läuft der Server schon?
+	13tage 23Stunden 9min
+	
+Wieviele CPUs sind ausgelastet oder wieviele bräuchten wir?
+	keine Ausgelastet, könnte auch eine schaffen
+	
+Wer ist der Besitzer des Prozesses init?
+	root
+	
+Benutzt firefox geteilten (shared) Speicher?
+	Nein, aber Chromium
+	
+Wieviel Speicher hat unser Server? Wieviel ist davon frei?
+	4.37G/34.3G
+
+Gibt es Benutzerprozesse, die älter als ein Tag sind?
+	Der älteste ist firefox von mirpao

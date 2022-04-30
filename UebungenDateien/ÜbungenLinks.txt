@@ -1,0 +1,16 @@
+1. ln (-s)
+	-rw-rw-r-- 2 endroidmc endroidmc    0 Feb 10 15:46 File
+	lrwxrwxrwx 1 endroidmc endroidmc    4 Feb 10 16:21 FileHL -> File
+	-rw-rw-r-- 2 endroidmc endroidmc    0 Feb 10 15:46 FileSL
+
+	lrwxrwxrwx 1 endroidmc endroidmc 4 Feb 10 16:21 FileHL -> File
+	-rw-rw-r-- 1 endroidmc endroidmc 0 Feb 10 15:46 FileSL
+
+2. ls -i: gibt iNode am Anfang aussua
+
+3. ln -s <Quelle> /tmp/<name>
+	Man kann Hardlinks nicht über Dateisysteme hinweg erstellen.
+	
+4. Ein Link eines Verzeichnisses kann nur ein Softlink sein.
+
+5. Ifind -inum <iNumber>

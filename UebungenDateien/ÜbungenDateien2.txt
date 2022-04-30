@@ -1,0 +1,18 @@
+more: gibt den Input Seitenweise aus, kann allerdings nicht zurückscrollen
+less: gibt den Input Zeilenweise aus und zurückscrollen
+
+tar -cf pla.tar pla
+	-c für create
+	-f für force
+gzip pla.tar
+
+tar gibt es mit gzip zusammen -
+	gzip löscht Originaldatei
+	tar nicht
+Geht auch mit ZIP
+	-r für rekursiv
+
+split teilt eine Datei in viele Teile mit jeweils 1'000 lines.
+mit cat kann man diese wieder zusammenführen.
+
+mit head/tails kann man die ersten/letzten x Zeilen einer Datei ansehen.

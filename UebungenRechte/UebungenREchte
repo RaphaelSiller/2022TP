@@ -1,0 +1,28 @@
+Erstelle ein C-Programm mit dem vi-Editor. Welche Rechte hat der Editor gesetzt? Wer hat welche Rechte auf die Datei? Wie ist die octale Darstellung der Rechte?
+	-rw-rw-r--
+	664
+
+Compiliere das erstellte C-Programm. Welche Rechte hat der Linker gesetzt? Wer hat welche Rechte auf die Datei? Wie ist die octale Darstellung der Rechte?
+	-rwxrwxr-x
+	775
+
+Wenn ein C-Programm hingegen nicht gelinkt wird, sondern nur bis zum Objektfile compiliert wird, welche Rechte hat dann das Objektfile?
+	die gleichen wie die .c
+
+Welche Rechte hat die Datei /usr/local/bin/structorizer? Was steht in der Datei?
+	existiert nicht
+
+Erstelle ein Verzeichnis public_html in deinem Homeverzeichnis, darin eine Datei index.html und greife über http://localhost/~dein_login darauf zu. Was passiert? Löse das Problem.
+	ERR_CONNECTION_REFUSED
+	
+
+Eine Datei README soll in jedem Homeverzeichnis der Benutzer liegen. Diese Datei soll für alle dieselbe sein und sie soll vom Administrator einfach verändert werden können. Was schlägst du zur Lösung dieses Problems vor?
+	rw-r--r--
+
+Erstelle ein Verzeichnis. Welche Rechte hat es? Kannst du dir das Recht nehmen in das Verzeichnis zu wechseln? Welches ist es?
+	drwxrwxr-x
+	x
+
+Welche Rechte hat dein Homeverzeichnis? Erkläre die Rechte!
+	drwxr-xr-x
+	
