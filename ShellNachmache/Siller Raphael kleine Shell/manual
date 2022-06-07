@@ -1,0 +1,7 @@
+Die kleine Shell gibt nach dem starten und vor jedem warten auf eine Eingabe den derzeitigen Arbeitspfad aus.
+DIe Befehle können wie in einer normalen Shell eingegeben und ausgeführt werden, allerdings müssen die Befehle im PATH sein.
+Es können Programme auch direkt gestartet werden
+Es gibt eine Einschränkung der Befehllänge:
+	-mindestens 10 Argumente
+	-Eingabe darf maximal 64 Zeichen enthalten
+Sollte der Arbeitspfad über 256 Zeichen enthalten, wird zwar die Anzeige nicht stimmen, allerdings sollte trotzdem alles funktionieren.

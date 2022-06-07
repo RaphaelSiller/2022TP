@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/endroidmc/Documents/Schule/3Klasse/C/TP/2022TP'
+make: Leaving directory '/home/endroidmc/Documents/Schule/3Klasse/C/TP/2022TP'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
